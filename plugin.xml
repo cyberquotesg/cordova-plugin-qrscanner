@@ -15,12 +15,10 @@
       </feature>
     </config-file>
     <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="android.permission.CAMERA" android:required="false" />
       <uses-feature android:name="android.hardware.camera" android:required="false" />
       <uses-feature android:name="android.hardware.camera.front" android:required="false" />
     </config-file>
-    <edit-config file="app/src/main/AndroidManifest.xml" target="/manifest/uses-permission[@android:name='android.permission.CAMERA']" mode="merge">
-      <uses-permission android:name="android.permission.CAMERA" android:required="false" />
-    </edit-config>
     <source-file src="src/android/QRScanner.java" target-dir="src/com/bitpay/cordova/qrscanner"/>
     <framework src="src/android/qrscanner.gradle" custom="true" type="gradleReference"/>
   </platform>
