@@ -1,9 +1,9 @@
 {
-  "name": "@moodlehq/cordova-plugin-qrscanner",
+  "name": "cordova-plugin-qrscanner",
   "version": "3.0.1-moodle.2",
   "description": "Moodle's fork of Cordova QRScanner Plugin.",
   "cordova": {
-    "id": "@moodlehq/cordova-plugin-qrscanner",
+    "id": "cordova-plugin-qrscanner",
     "platforms": [
       "ios"
     ]
