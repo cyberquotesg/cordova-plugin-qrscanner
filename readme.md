@@ -19,5 +19,5 @@ You can see all the changes here: [111fa6c...moodlemobile:v3.0.1-moodle.2](https
 You can install this package using the [original installation instructions](https://github.com/bitpay/cordova-plugin-qrscanner#get-started), but installing this package instead:
 
 ```sh
-cordova plugin add @moodlehq/cordova-plugin-qrscanner@3.0.1-moodle.2
+cordova plugin add cordova-plugin-qrscanner@3.0.1-moodle.2
 ```
